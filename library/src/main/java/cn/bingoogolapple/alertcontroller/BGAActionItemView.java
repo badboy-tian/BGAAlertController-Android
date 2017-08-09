@@ -44,8 +44,8 @@ public class BGAActionItemView extends TextView implements View.OnClickListener 
             if (alertAction.getStyle() == BGAAlertAction.AlertActionStyle.Default) {
                 setTextColor(getResources().getColor(R.color.ac_item_text_default));
             } else if (alertAction.getStyle() == BGAAlertAction.AlertActionStyle.Cancel) {
-                setTextColor(getResources().getColor(R.color.ac_item_text_default));
-                getPaint().setFakeBoldText(true);
+                setTextColor(getResources().getColor(R.color.ac_item_text_cancel));
+                //getPaint().setFakeBoldText(true);
             } else if (alertAction.getStyle() == BGAAlertAction.AlertActionStyle.Destructive) {
                 setTextColor(getResources().getColor(R.color.ac_item_text_destructive));
             }

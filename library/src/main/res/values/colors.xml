@@ -4,6 +4,7 @@
     <color name="ac_bg_content">#F9F9F9</color>
 
     <color name="ac_item_text_default">#007AFF</color>
+    <color name="ac_item_text_cancel">#007AFF</color>
     <color name="ac_item_text_destructive">#FF3B30</color>
     <color name="ac_item_bg_pressed">#EBEBEB</color>
 
