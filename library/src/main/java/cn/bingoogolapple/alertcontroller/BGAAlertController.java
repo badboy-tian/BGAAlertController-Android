@@ -22,6 +22,7 @@ import android.content.Context;
 import android.content.DialogInterface;
 import android.content.res.Resources;
 import android.util.DisplayMetrics;
+import android.view.Gravity;
 import android.view.View;
 import android.view.WindowManager;
 import android.view.animation.Animation;
@@ -58,6 +59,7 @@ public class BGAAlertController extends Dialog implements View.OnClickListener, 
         setContentView(R.layout.ac_alert_controller);
         getWindow().setWindowAnimations(R.style.BGAWindow);
         getWindow().setLayout(WindowManager.LayoutParams.MATCH_PARENT, getScreenHeight(activity) - getStatusBarHeight(activity));
+        getWindow().setGravity(Gravity.BOTTOM);
         setOnShowListener(this);
         setCancelable(false);
         setCanceledOnTouchOutside(false);
